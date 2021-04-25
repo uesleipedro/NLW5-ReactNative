@@ -7,13 +7,12 @@ import {
     Image
 } from 'react-native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
-import { color } from 'react-native-reanimated';
 
-import userImg from '../assets/perfil.jpg';
+import userImg from '../assets/perfil.png';
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 
-export function Header(){
+export function Header() {
     const [userName, setUserName] = useState<string>();
 
     useEffect(() => {
@@ -23,15 +22,15 @@ export function Header(){
         }
 
         loadStorageUserName();
-    },[]);
+    }, []);
 
-    return(
+    return (
         <View style={style.container}>
             <View>
                 <Text style={style.greeting}>Olá,</Text>
                 <Text style={style.userName}>{userName}</Text>
             </View>
-            <Image source={ userImg } style={style.image}/>
+            <Image source={userImg} style={style.image} />
         </View>
     );
 }

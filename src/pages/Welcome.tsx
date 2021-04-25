@@ -9,7 +9,7 @@ import {
     Dimensions
 } from 'react-native';
 import { Feather } from '@expo/vector-icons';
-import { NavigationHelpersContext, useNavigation } from '@react-navigation/core'
+import { useNavigation } from '@react-navigation/core'
 
 import wateringImg from '../assets/watering.png';
 import colors from '../styles/colors';
@@ -18,7 +18,7 @@ import fonts from '../styles/fonts';
 export function Welcome() {
     const navigation = useNavigation();
 
-    function handleStart(){
+    function handleStart() {
         navigation.navigate('UserIdentification');
     }
 
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    wrapper:{
+    wrapper: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'space-around',
@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 28,
-        fontWeight: 'bold',
         textAlign: 'center',
         color: colors.heading,
         marginTop: 38,
