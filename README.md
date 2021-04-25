@@ -20,23 +20,3 @@ A proposta deste NLW é desenvolver um app mobile para ajudar as pessoas a lembr
 
 Projeto figma: [arquivo](./.github/PlantManager.fig)
 ![PlantManager](./.github/PlantManager.png)
-
-## Conteúdo
-
-**Aula 1**
-
-A primeira aula foi para explicar o quê é o `React Native` e o `Expo`, foi abordado sobre a criação de _componentes_ e criamos a primeira tela do app, a tela de _"Bem vindo"_.
-
-**Aula 2**
-
-A segunda aula foi para desenvolvemos mais duas telas, a de _"Confirmar nome"_ e _"Começar"_ e também criamos um _botão_ como _componente_ para ser utilizado no app.
-
-**Aula 3**
-
-A terceira aula foi para desenvolvermos a tela de _"Escolha uma planta"_, também implemetamos o uso de uma api externa, no qual foi simulada pelo `json-server` e para fazer os `fetch's` da api foi utilizado o `Axios`.
-
----
-
-Agradecimento à **Rocketseat** 🚀 pelo evento incrível!💜
-
-_Matheus Ishiyama_
